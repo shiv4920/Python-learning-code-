@@ -1,0 +1,15 @@
+#Recursion 
+# print n to 1 backwards
+#def show(n):
+ # if(n==0):#Base case
+  #show(n-1)
+#show(9)
+ # to calculate factorial.
+
+def fact(n):
+  if(n==0 or n==1):
+    return 1
+  return n*fact(n-1)
+print(fact(4)) 
+
+    
