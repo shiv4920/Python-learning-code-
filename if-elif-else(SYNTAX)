@@ -1,0 +1,32 @@
+# if.py
+
+age=21
+if(age>=18):
+    print("you are eligible to vote")
+
+light="pink"
+if(light=="green"):
+    print("you can go")
+elif(light=="yellow"):
+    print("you should slow down")
+elif(light=="red"):
+    print("you should stop")
+else:
+    print("light is broken") 
+
+print("end of code")
+
+#nesting.py
+# Nesting 
+age =98
+if(age>=18):
+  if(age>=80):
+    print("you can drive")
+  else:
+    print("you cannot drive")
+else:
+  print("you cannot drive")
+  
+    
+ 
+      
