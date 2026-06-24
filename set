@@ -18,4 +18,15 @@ set1={1,2,3,4,6}
 set2={5,7,4,3,6}
 print(set1.union(set2))
 print(set1.intersection(set2))
+
+# set.py
+nums={1,2,3,4}
+nums2={1,2,2,3,3,4,5}
+print(nums)
+print(nums2)
+print(type(nums))
+print(type(nums2))
+nums3=set()#empty set
+print(nums3)
+print(type(nums3))
  
