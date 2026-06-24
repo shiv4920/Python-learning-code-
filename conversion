@@ -1,0 +1,15 @@
+#type casting
+a=int("2")
+b=3.5
+print(type(a))
+print(type(b))
+sum=a+b
+print("sum:",sum)
+c=3.14
+c=str(c)
+print(type(c))
+#type conversion
+a=2
+b=3.5
+sum=a+b
+print("sum:",sum)
