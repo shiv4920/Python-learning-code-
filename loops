@@ -1,0 +1,31 @@
+# break&cont.py
+tup=[1,4,9,16,25,36,49,64,81,100]
+#x=int(input("x:"))
+#i=0
+#while i<len(tup):
+ # if(tup[i]!=x):
+  #  i+=1
+  #else:
+   # print("yes")
+   # break
+
+   #continue
+i=0
+while i<=5:
+  if(i==3):
+   i+=1
+   continue #skip 
+  print(i)
+  i+=1
+
+count=1
+while count <=5:
+  print("hello",count)
+  count+=1
+print(count) 
+
+# while.py
+i=1
+while i<=5:
+  print(i)
+  i+=1
