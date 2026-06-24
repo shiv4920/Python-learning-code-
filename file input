@@ -1,0 +1,40 @@
+#output
+#f=open("shiv.txt","r")
+#data=f.read()
+#print(data)
+#print(type(data))
+#f.close()
+
+f=open("shiv.txt","r")
+line1=f.readline()
+print(line1,end="")
+line2=f.readline()
+print(line2)
+f.close()
+
+#write in a file which means intialy we have to delete a previous data and then update a new data
+#=open("shiv.txt","w")
+#data=f.write("i am going to learn javascript with cup tea.")
+#print(data,end=" ")
+#f.close()
+#f=open("shiv.txt","a")
+#data=f.write("this gonna be crazy.")
+#print(data,end=" ")
+#f.close()
+f=open("shiv.txt","a+")
+f.write("abc")
+print(f.read())
+f.close()
+#Deleting a file
+#  using the os module
+#  module(like a code library) is a file written by another program that generally has a function we can use.
+
+import os
+os.remove("shiv.txt")
+#with open("shiv.txt","r")as f:
+ #data=f.read();
+ #print(data)#do not need to write a f.close. function
+  
+with open("shiv.txt","w")as f:
+  data=f.write("i am good lisner")
+  print(data)
