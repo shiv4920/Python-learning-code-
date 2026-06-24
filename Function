@@ -1,0 +1,21 @@
+#def cal_sum(a,b):
+  #sum=a+b
+  #print(sum)
+ # return sum
+#cal_sum(2,4)
+#cal_sum(5,4)
+#cal_sum(3,9)
+#function defination
+#def cal_sum(a,b):#parameter
+ # return a+b
+#sum=cal_sum(5,3)#function calls;arguments
+#print(sum)
+#def printhello():
+ # print("hello")
+#printhello()
+#average of 3 nuumbers
+def cal_avg(a,b,c):
+  avg=(a+b+c)/3
+  print(avg)
+  return avg
+cal_avg(4,5,6)
