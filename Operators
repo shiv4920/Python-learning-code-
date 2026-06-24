@@ -1,0 +1,44 @@
+#airthmetic operators
+a=5
+b=1
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b) #remainder
+print(a**b)#a^b
+
+#Assignment operators
+num=5
+num+=5
+print("num:",num)
+num-=5
+print("num:",num)
+num*=5
+print("num:",num)
+num/=5
+print("num:",num)
+num%=5
+print("num:",num)
+num**=5
+print("num:",num)
+
+#logical operators
+a=5
+b=1
+print(not False)
+print(not(a>b))
+val1=True
+val2=False
+print("and operator:",val1 and val2)
+print("or operator:",val1 or val2)
+
+#Rational/Comparison operators
+a=5
+b=1
+print(a==b) #equal to
+print(a!=b) #not equal to
+print(a>b) #greater than
+print(a<b) #less than 
+print(a>=b) #greater than or equal to
+print(a<=b) #less than or equal to
